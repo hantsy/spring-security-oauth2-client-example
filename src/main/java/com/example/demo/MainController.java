@@ -21,6 +21,7 @@ import java.util.Map;
 
 @Controller
 public class MainController {
+
     @Autowired
     private OAuth2AuthorizedClientService authorizedClientService;
 
