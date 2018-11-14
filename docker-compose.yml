@@ -11,6 +11,7 @@ services:
       - PROXY_ADDRESS_FORWARDING=true
       - KEYCLOAK_USER=keycloak 
       - KEYCLOAK_PASSWORD=keycloak
+      - DB_VENDOR=MYSQL
     depends_on:
       - mysql
       
