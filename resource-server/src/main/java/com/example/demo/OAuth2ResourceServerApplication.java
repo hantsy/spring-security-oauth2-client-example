@@ -19,7 +19,6 @@ public class OAuth2ResourceServerApplication {
 
 }
 
-
 @Configuration
 class SecurityConfig {
 
