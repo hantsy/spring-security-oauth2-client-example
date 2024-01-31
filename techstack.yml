@@ -1,0 +1,204 @@
+repo_name: hantsy/keycloak-spring-security-sample
+report_id: 3b80226644a45e45eb851518a8781784
+version: 0.1
+repo_type: Public
+timestamp: '2024-01-31T08:19:35+00:00'
+requested_by: hantsy
+provider: github
+branch: master
+detected_tools_count: 16
+tools:
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample
+  detection_source: Repo Metadata
+- name: Project Reactor
+  description: Library for building non-blocking applications on JVM
+  website_url: https://projectreactor.io/
+  open_source: false
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Java Tools
+  image_url: https://img.stackshare.io/service/5807/default_cbd8ab670309059d7e315252d307d409aa40d793.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/resource-server/pom.xml
+  detection_source: resource-server/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-30 08:18:08.000000000 Z
+- name: Spring Framework
+  description: An application framework and inversion of control container for the
+    Java platform
+  website_url: https://spring.io/projects/spring-framework
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Frameworks (Full Stack)
+  image_url: https://img.stackshare.io/service/2006/spring-framework-project-logo.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: Cloud DB for Mysql
+  description: Easily setup and manage the MySQL database service
+  website_url: https://www.ncloud.com/product/database/cloudDbMysql
+  open_source: false
+  hosted_saas: true
+  category: Data Stores
+  sub_category: SQL Database as a Service
+  image_url: https://img.stackshare.io/service/21275/default_078eb0ae2b56280a937ed073a3ba4332291f9ba8.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: hantsy
+  last_updated_on: 2018-11-14 11:07:31.000000000 Z
+- name: MySQL
+  description: The world's most popular open source database
+  website_url: http://www.mysql.com
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/1025/logo-mysql-170x170.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: hantsy
+  last_updated_on: 2018-04-24 07:03:57.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample
+  detection_source: Repo Metadata
+- name: Apache Camel
+  description: A versatile open source integration framework
+  website_url: https://camel.apache.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Application Hosting
+  sub_category: Platform as a Service
+  image_url: https://img.stackshare.io/service/3276/xWt1RFo6_400x400.jpg
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/src/main/resources/application.properties
+  detection_source: client/src/main/resources/application.properties
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: Keycloak
+  description: An open source identity and access management solution
+  website_url: https://www.keycloak.org/
+  open_source: false
+  hosted_saas: false
+  category: Application Utilities
+  sub_category: User Management and Authentication
+  image_url: https://img.stackshare.io/service/5439/oAC05cEB_400x400.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/docker-compose.yml
+  detection_source: docker-compose.yml
+  last_updated_by: hantsy
+  last_updated_on: 2018-11-14 11:07:31.000000000 Z
+- name: com.squareup.okhttp3:mockwebserver
+  description: 'Null'
+  version: 4.12.0
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/resource-server/pom.xml
+  detection_source: resource-server/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-30 08:18:08.000000000 Z
+- name: io.projectreactor:reactor-test
+  description: Reactor Test support
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/resource-server/pom.xml
+  detection_source: resource-server/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-30 08:18:08.000000000 Z
+- name: net.sourceforge.htmlunit:htmlunit
+  description: A headless browser intended for use in testing web-based applications
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: org.projectlombok:lombok
+  description: 'Spice up your java: Automatic Resource Management'
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-security
+  description: Starter for using Spring Security
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-test
+  description: Starter for testing Spring Boot applications with libraries including
+    JUnit
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: org.springframework.boot:spring-boot-starter-thymeleaf
+  description: Starter for building MVC web applications using Thymeleaf views
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
+- name: org.springframework.security:spring-security-test
+  description: Spring-security-test
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hantsy/keycloak-spring-security-sample/blob/master/client/pom.xml
+  detection_source: client/pom.xml
+  last_updated_by: hantsy
+  last_updated_on: 2023-12-29 13:13:12.000000000 Z
